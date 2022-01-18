@@ -70,10 +70,7 @@ body {
 
 .head {
     color: white;
-}
-
-.head-part {
-    text-align: center;
+    font-size: 1.2rem;
 }
 
 .scroll {
