@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bilal - Portfolio
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="icon" href="assets/imgs/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="stuff/fontawesome/css/all.min.css">
+    <style>
+        .header-container {
+            width: 100%;
+            background: linear-gradient(135deg, hsla(348, 97%, 63%, 0.33), hsla(230, 96%, 62%, 0.33)),
+                 url("assets/imgs/10.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Links -->
+        <div class="nav-container bg-dark">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><i class="fas fa-laptop"></i> Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><i class="fas fa-briefcase"></i> Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><i class="fas fa-address-book"></i> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <!-- Bars -->
+    <div id="bars-container">
+         <button class="icon" id="navBtn" style="">
+            <div class="bars">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </button>
+    </div>
+    </div>
+
+    <!-- Responsive NavBar Links -->
+    <div class="responsive-links" id="links">
+        <ul class="links">
+            <li>
+                <a href=""> Home</a><div class="nav-line"></div>
+            </li>
+            <li>
+                <a href="">Skills</a><div class="nav-line"></div>
+            </li>
+            <li>
+                <a href="">Projects</a><div class="nav-line"></div>
+            </li>
+            <li>
+                <a href="">Contact</a><div class="nav-line"></div>
+            </li>
+        </ul>
+    </div>
+    <!-- Header -->
+    <section class="header-container">
+            <div class="header">
+                <img class="logo" src="assets/imgs/favicon.png">
+                <h2 class="head">Hi, I'm Bilal. I design & build<br>   <div class="head-part">user interfaces.</div> </h2>
+                <h4 class="scroll">Learn More About What I Do.
+                    <br> <i class="fas fa-angle-double-down arrow-down"></i></h4> 
+                
+            </div>
+    </section>
+
+
+    <script src="assets/js/navbar.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/de41999cf3.js"></script>
+    <script>
+        $('#links').hide();
+        $(document).ready(()=> {
+            $('#navBtn').click(()=> {
+                $('#links').slideToggle();
+            })
+        });
+    </script>
+
+</body>
+</html>
