@@ -73,6 +73,38 @@
     }
     .scroll {
         margin-top: 5rem;
+    } /* About Me */
+    .info {
+        width: 90%;
     }
+    /* Skills */
+    .skills {
+        margin-left: 10px;
+    }
+    ul li {
+        margin-left: 10px;
+    }
+    .bar-head {
+        font-size: 1.5rem;
+    }
+    /* Projects */
+    .first-three {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .project {
+        display: flex;
+        justify-content: center;
+    }
+    .project-img {
+        width: 22rem;
+        display: flex;
+    }
+    /* Contact */
 
 }
