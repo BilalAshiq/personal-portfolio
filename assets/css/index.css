@@ -92,4 +92,266 @@ body {
     100%{opacity: 100%}
 }
 
+.about-me {
+    padding: 40px;
+}
 
+.aboutme-head {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.info {
+    font-family: century gothic;
+    font-weight: 400;
+    color: var(--light-color);
+    font-size: 1.2rem;
+    margin: 10px 0 0 15px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.social-icons {
+    color: var(--green-color);
+    margin: 20px 0 0 10px;
+    padding: 10px auto;
+}
+
+.fab {
+    margin-left: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.fab:hover {
+    transform: scale(1.5);
+}
+
+.contact-details {
+    margin-top: 3rem;
+    line-height: 30px;
+}
+
+.detail-head {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.connectWithMe {
+    color: var(--light-color);
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-family: calibri;
+}
+
+/* skills */
+
+.skills {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skill-container {
+    width: 100%;
+    height: 100vh;
+    background: var(--secondary-dark);
+}
+
+.skill-head {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: century gothic;
+    font-weight: 400;
+}
+
+.sub-header {
+    font-family: tahoma;
+    color: var(--green-color);
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.bar-head {
+    color: var(--green-color);
+    margin: 10px 0 10px 10px;
+    font-size: 1.2rem;
+}
+
+.bar {
+    margin-left: 20px;
+    width: 80%;
+    border-radius: 10px;
+    height: 7px;
+    border: 1px solid #4ecca3;
+    
+}
+
+.html {
+    width: 65%;
+    border-radius: 5px;
+    background: var(--green-color);
+    height: 5px;
+    animation: html 3s;
+}
+
+@keyframes html {
+    0%{width: 0}
+    100%{width: 65%};
+}
+
+.css {
+    width: 55%;
+    border-radius: 5px;
+    background: var(--green-color);
+    height: 5px;
+    animation: css 3s;
+}
+
+@keyframes css {
+    0%{width: 0}
+    100%{width: 55%};
+}
+
+.js {
+    width: 40%;
+    border-radius: 5px;
+    background: var(--green-color);
+    height: 5px;
+    animation: js 3s;
+}
+
+@keyframes js {
+    0%{width: 0}
+    100%{width: 40%};
+}
+
+.bs {
+    width: 50%;
+    border-radius: 5px;
+    background: var(--green-color);
+    height: 5px;
+    animation: bs 3s;
+}
+
+@keyframes bs {
+    0%{width: 0}
+    100%{width: 50%};
+}
+
+.jq {
+    width: 30%;
+    border-radius: 5px;
+    background: var(--green-color);
+    height: 5px;
+    animation: jq 3s;
+}
+
+@keyframes jq {
+    0%{width: 0}
+    100%{width: 30  %};
+}
+
+/* Projects */
+
+.project-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.project-head {
+    color: white;
+    font-family: century gothic;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.comment {
+    color: var(--light-color);
+    font-size: 2rem;
+    text-align: center;
+    font-family: calibri;
+}
+
+.project {
+    cursor: pointer;
+}
+
+.project-label {
+    color: white;
+    margin: 10px 0 5px 10px;
+    font-size: 20px;
+}
+
+.first-three {
+    display: flex;
+}
+
+.last-two {
+    display: flex;
+    justify-content: center;
+}
+
+.project-img {
+    margin-left: 15px;
+    display: flex;
+    width: 300px;
+    height: 20rem;
+    border: 2px solid var(--light-color);
+
+}
+
+/* Contact */
+.contact-container {
+    width: 100%;
+    height: 100vh;
+    background: var(--secondary-dark);
+}
+
+.contact-head {
+    color: white;
+    font-family: century gothic;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-label {
+    color: white;
+}
+
+#form {
+    width: 50%;
+}
+
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 20px auto;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fd7e14;
+    color: white;
+}
+.foot {
+    color: white;
+    font-family: calibri;
+    text-align: center;
+    padding-top: 5px;
+}
