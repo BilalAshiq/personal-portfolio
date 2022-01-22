@@ -9,6 +9,7 @@
             height: 50px;
             background: #1e1f26;
             margin: 10px;
+            position: fixed;
             float: right;
             border: 1px solid grey;
     }
@@ -48,6 +49,7 @@
         top: 20%;
         line-height: 45px;
         background: #1e1f26;
+        position: fixed;
     }
 
     ul li a {
