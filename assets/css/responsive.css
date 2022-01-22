@@ -106,5 +106,7 @@
         display: flex;
     }
     /* Contact */
+    input {
+        width: 60%;
 
 }
