@@ -54,6 +54,7 @@
         line-height: 45px;
         background: #1e1f26;
         position: fixed;
+        z-index: 1;
     }
 
     ul li a {
