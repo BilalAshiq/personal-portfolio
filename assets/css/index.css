@@ -290,10 +290,6 @@ body {
     font-family: calibri;
 }
 
-.project {
-    cursor: pointer;
-}
-
 .project-label {
     color: white;
     margin: 10px 0 5px 10px;
@@ -310,14 +306,53 @@ body {
 }
 
 .project-img {
+    position: relative;
     margin-left: 15px;
     display: flex;
     width: 300px;
-    height: 20rem;
+    height: 300px;
     border: 2px solid var(--light-color);
 
 }
 
+.project-img:hover {
+    opacity: 1;
+
+}
+
+.details {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+}
+
+
+.details:hover {
+    background: rgba(0,0,0,0.9);
+    width: 300px;
+    height: 305px;
+    top: 12%;
+    left: 4.5%;
+    opacity: 1;
+}
+
+.project {
+    cursor: pointer;
+    position: relative;
+}
 /* Contact */
 .contact-container {
     width: 100%;
