@@ -108,7 +108,7 @@
         display: flex;
     }
      .details:hover {
-        width: 300px;
+        width: 280px;
         position: absolute;
         left: 10%;
 
