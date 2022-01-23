@@ -94,6 +94,9 @@
         font-size: 1.3rem;
     }
     /* Projects */
+    .projects {
+        position: relative;
+    }
     .first-three {
         display: flex;
         flex-direction: column;
