@@ -10,6 +10,10 @@
             background: #1e1f26;
             margin: 10px;
             position: fixed;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            z-index: 1;
             float: right;
             border: 1px solid grey;
     }
