@@ -112,7 +112,7 @@
         justify-content: center;
     }
     .project-img {
-        width:
+        width: 300px;
         display: flex;
     }
      .details:hover {
