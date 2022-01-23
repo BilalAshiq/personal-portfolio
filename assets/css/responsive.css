@@ -14,7 +14,6 @@
             left: 0;
             overflow-x: hidden;
             z-index: 1;
-            float: right;
             border: 1px solid grey;
     }
 
@@ -49,7 +48,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        right: 10%;
+        right: 11%;
         top: 20%;
         line-height: 45px;
         background: #1e1f26;
@@ -80,7 +79,8 @@
     }
     .scroll {
         margin-top: 5rem;
-    } /* About Me */
+    } 
+    /* About Me */
     .info {
         width: 90%;
     }
@@ -112,7 +112,7 @@
         justify-content: center;
     }
     .project-img {
-        width: 20rem;
+        width:
         display: flex;
     }
      .details:hover {
