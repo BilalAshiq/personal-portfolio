@@ -248,6 +248,28 @@
             e.preventDefault();
         })
         });
+		 $("#sendMsg").click((e)=>{
+            e.preventDefault();
+            let name = $("#name").val();
+            let email = $("#email").val();
+            let message = $("#message").val();
+
+            let msg = name+" having email id: "+email+" says that => "+message;
+            msg = encodeURI(msg);
+
+            let url = "https://api.telegram.org/bot1983609570:AAFK9-gAvMVASXmEYDsQmv9lcUfPYEmw-4w/sendMessage?chat_id=1624245287&text="+msg;
+            $.ajax({
+                url: url,
+                method: "GET",
+                success: function (data) {
+                    alert("Message Sent!")
+                    $(".form")[0].reset();
+                },
+                error: function () {
+                    alert("Failed To Send Message!");
+                }
+            });
+        });
     </script>
 
 </body>
