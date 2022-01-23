@@ -347,6 +347,7 @@ body {
     top: 12%;
     left: 4.5%;
     opacity: 1;
+    transition: all 3s ease-in;
 }
 
 .project {
