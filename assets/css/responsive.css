@@ -108,8 +108,8 @@
         display: flex;
     }
      .details:hover {
-        width: 280px;
+        width: 300px;
         position: absolute;
-        left: 10%;
+        left: 8%;
 
     }
