@@ -51,7 +51,7 @@
         top: 20%;
         line-height: 45px;
         background: #1e1f26;
-        position: fixed;
+        position: sticky;
     }
 
     ul li a {
