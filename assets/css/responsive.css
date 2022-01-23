@@ -107,3 +107,9 @@
         width: 20rem;
         display: flex;
     }
+     .details:hover {
+        width: 350px;
+        position: absolute;
+        left: 12.2%;
+
+    }
