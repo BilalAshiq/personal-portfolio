@@ -246,10 +246,7 @@
             let msg = name+" having email id: "+email+" says that => "+message;
             msg = encodeURI(msg);
 
-            let url = "https://api.telegram.org/bot1983609570:AAFK9-gAvMVASXmEYDsQmv9lcUfPYEmw-4w/sendMessage?chat_id=1624245287&text="+msg;
-       
-             if (name == "" || email == "" || message == "") {
-                       alert('All Fields Are Required');           
+            let url = "https://api.telegram.org/bot1983609570:AAFK9-gAvMVASXmEYDsQmv9lcUfPYEmw-4w/sendMessage?chat_id=1624245287&text="+msg;      
 
             $.ajax({
                 url: url,
