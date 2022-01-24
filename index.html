@@ -243,6 +243,10 @@
             let email = $("#email").val();
             let message = $("#message").val();
 
+             if (name == "" || email == "" || message == "") {
+                   alert('All Fields Are Required');
+
+
             let msg = name+" having email id: "+email+" says that => "+message;
             msg = encodeURI(msg);
 
