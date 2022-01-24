@@ -232,19 +232,15 @@
 	<script src="https://kit.fontawesome.com/de41999cf3.js"></script>
     <script>
         $('#links').hide();
-        $(document).ready(()=> {
             $('#navBtn').click(()=> {
                 $('#links').slideToggle();
             })
-        });
+
             $("#sendMsg").click((e)=>{
             e.preventDefault();
             let name = $("#name").val();
             let email = $("#email").val();
-            let message = $("#message").val();
-
-             if (name == "" || email == "" || message == "") {
-                   alert('All Fields Are Required');
+            let message = $("#message").val(); 
 
 
             let msg = name+" having email id: "+email+" says that => "+message;
