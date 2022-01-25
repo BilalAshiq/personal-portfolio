@@ -294,7 +294,7 @@ body {
 
 .main-container .card {
     cursor: pointer;
-    background: var(--primary-dark);
+    background: var(--secondary-dark);
 }
 
 .main-container .card .face {
@@ -305,7 +305,7 @@ body {
 
 .main-container .card .face.face1 {
     position: ;
-    background: #333;
+    background: var(--secondary-dark);
     display: flex;
     justify-content: center;
     align-items: center;
