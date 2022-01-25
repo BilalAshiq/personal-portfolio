@@ -95,29 +95,25 @@
         font-size: 1.3rem;
     }
     /* Projects */
-    .projects {
-        position: relative;
-    }
-    .first-three {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .last-two {
-        display: flex;
-        flex-direction: column;
-    }
-    .project {
+  .main-container {
+        width: 80%;
         display: flex;
         justify-content: center;
+        padding: 20px;
     }
-    .project-img {
-        width: 20rem;
+    .project-head {
+        margin-left: 12rem;
+    }
+     .firstThree {
         display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
     }
-     .details:hover {
-        width: 320px;
-        position: absolute;
-        left: 2%;
-
+    .lastTwo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .card {
+        margin-top: 10px;
     }
