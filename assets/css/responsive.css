@@ -102,7 +102,8 @@
         padding: 20px;
     }
     .project-head {
-        margin-left: 10rem;
+        margin-left: 7rem;
+        padding: 10px 0 10px 0;
     }
      .firstThree {
         display: flex;
