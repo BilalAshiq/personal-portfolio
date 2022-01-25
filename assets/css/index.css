@@ -129,6 +129,7 @@ body {
 }
 
 .fab {
+    color: var(--green-color);
     margin-left: 15px;
     font-size: 30px;
     cursor: pointer;
