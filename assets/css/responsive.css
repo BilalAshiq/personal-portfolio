@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: : center;      
+        justify-content: center;      
     }
     .about-me {
         display: flex;
@@ -14,11 +14,14 @@
         margin: 20px auto;
     }
     .mypic {
-        margin-top: 2rem;
+        margin-top: 2.5rem;
     }
+     .main-nav {
+          z-index: 4;
+     }
     /* About Me */
     .info {
-        width: 90%;
+        width: 80%;
     }
     /* Skills */
     .skills {
