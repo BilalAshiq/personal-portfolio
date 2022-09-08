@@ -27,7 +27,6 @@ body {
 
 .main-nav {
     background: var(--primary-dark);
-    z-index: 4;
 }
 
 .nav-item a {
@@ -71,7 +70,6 @@ body {
     border-right: 3px solid var(--green-color);
     box-shadow: 0px 0px 7px var(--green-color);
     overflow: hidden;
-    margin-top: 15px;
 }
 
 .social-icons {
