@@ -14,11 +14,8 @@
         margin: 20px auto;
     }
     .mypic {
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
-     .main-nav {
-          z-index: 4;
-     }
     /* About Me */
     .info {
         width: 80%;
