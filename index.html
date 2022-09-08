@@ -11,103 +11,62 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="icon" href="assets/imgs/favicon.png">
 	<link rel="stylesheet" type="text/css" href="stuff/fontawesome/css/all.min.css">
-    <style>
-        .header-container {
-            width: 100%;
-            background: linear-gradient(135deg, hsla(348, 97%, 63%, 0.33), hsla(230, 96%, 62%, 0.33)),
-                 url("assets/imgs/10.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-
-    </style>
 </head>
 <body>
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark main-nav">
+            <div class="container-fluid">
+                <button class="navbar-toggler ml-auto m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="">
+                    <img src="assets/imgs/favicon.png" class="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skills"><i class="fas fa-laptop"></i> Skills</a>
+                        </li>
+                     
+                        <li class="nav-item">
+                          <a class="nav-link" href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact"><i class="fas fa-address-book"></i> Contact</a>
+                        </li>
+                    </ul>
+              
+                </div>
+          </div>
+        </nav>  
 
-    <!-- Links -->
-        <div class="nav-container bg-dark">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link"><i class="fas fa-laptop"></i> Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects class="nav-link"><i class="fas fa-briefcase"></i> Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><i class="fas fa-address-book"></i> Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    <!-- Bars -->
-    <div id="bars-container">
-         <button class="icon" id="navBtn" style="">
-            <div class="bars">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </button>
-    </div>
-    </div>
+   <section id="home">
+            <div class="container bio-content">
+                <div class="img-container">
+                    <img src="assets/imgs/myPic.jpg" class="mypic">
+                    <div class="social-icons">
+                        <a target="_blank" href="https://fb.com/BilalWar"><i class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://instagram.com/bilalwar02"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://twitter.com/BillalVarr"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://github.com/bilalashiq"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
 
-    <!-- Responsive NavBar Links -->
-    <div class="responsive-links" id="links">
-        <ul class="links">
-            <li>
-                <a href="index.html"> Home</a><div class="nav-line"></div>
-            </li>
-            <li>
-                <a href="#skills">Skills</a><div class="nav-line"></div>
-            </li>
-            <li>
-                <a href="#projects">Projects</a><div class="nav-line"></div>
-            </li>
-            <li>
-                <a href="#contact">Contact</a><div class="nav-line"></div>
-            </li>
-        </ul>
-    </div>
-    <!-- Header -->
-    <section class="header-container">
-            <div class="header">
-                <img class="logo" src="assets/imgs/favicon.png">
-                <h2 class="head">Hi, I'm Bilal. I design & build<br>   <div class="head-part">user interfaces.</div> </h2>
-                <h4 class="scroll">Learn More About What I Do.
-                    <br> <i class="fas fa-angle-double-down arrow-down"></i></h4> 
-                
-            </div>
-    </section>
-     <!-- About Me -->
-      <section id="about-me">
-        <div class="about-me">
-            <h2 class="aboutme-head">About Me.</h2>
-            <h4 class="info">
-                Hey There! I am Bilal. I am a student of class 10 in SRM Welkin. I am a Front-end Developer. Take a look around and let me know how it looks. Ciao!
-            </h4>
-            <div class="contct">
-                <div class="social-icons">
-                    <a target="_blank" href="https://fb.com/Bilal%War"><i id="fab1" class="fab fa-facebook"></i></a>
-                    <a target="_blank" href="https://github.com/bilalashiq"><i id="fab1" class="fab fa-github"></i></a>
-                    <a target="_blank" href="https://twitter.com/@BilalWar02"><i id="fab1" class="fab fa-twitter"></i></a>
-                    <a target="_blank" href="https://instagram.com/bilalvar2"><i id="fab1" class="fab fa-instagram"></i></a>
-             </div>
-                <div class="contact-details">
-                    <h3 class="detail-head">Connet With Me</h3>
-                    <p class="connectWithMe">
-                        E-mail : bilalashiq675@gmail.com<br>
-                        Address : Sopore, Baramulla<br>
-                        
+                <div class="about-me">
+                    <h2 class="main-head">Bilal War</h2>
+                    <div class="tags-container">
+                        <h3 class="tags">Web Developer, Student</h3>
+                    </div>
+                    <p class="info">
+                        Hey There! I am Bilal War. I am a student of class 10 in SRM Welkin. Take a look around and let me know how it looks.Ciao!
                     </p>
                 </div>
+            
             </div>
-        </div>
-    </section>
+        </section>
     <!-- Skills -->
     <section id="skills">
         <div class="skill-container">
