@@ -21,6 +21,9 @@
           position: fixed;
           z-index: 4;
      }
+     .bio-content {
+          height: 120vh;
+     }
     /* About Me */
     .info {
         width: 90%;
