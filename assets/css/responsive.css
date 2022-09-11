@@ -14,7 +14,7 @@
         margin: 20px auto;
     }
     .mypic {
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
      .main-nav {
           width: 100%;
@@ -22,7 +22,7 @@
           z-index: 4;
      }
      .bio-content {
-          height: 125vh;
+          height: 110vh;
      }
     /* About Me */
     .info {
